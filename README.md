@@ -57,7 +57,6 @@ Things you may want to cover:
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|user|references|null: false|
 ### Association
 - has_many :groups_users
 - has_many :user, through: :groups_users
